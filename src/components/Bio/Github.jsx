@@ -17,7 +17,7 @@ function BioGitHub({ onClose }) {
           className="rounded-full size-16 border-2 border-emerald-400"
         />
         <div>
-          <h3 className="text-lg font-semibold text-blue-300">qmthang22</h3>
+          <h3 className="text-lg font-semibold text-blue-300">thangthugian</h3>
           <p className="text-sm font-thin">GitHub</p>
         </div>
       </div>
@@ -34,7 +34,7 @@ function BioGitHub({ onClose }) {
         <h4 className="text-sm font-semibold mb-2 text-violet-500">Stats ⏳</h4>
         <div className="grid grid-cols-3 gap-2 text-center text-sm">
           <div className="bg-[#0d1117] border border-gray-700 rounded p-2">
-            <p className="font-bold text-blue-400">13</p>
+            <p className="font-bold text-blue-400">15</p>
             <p className=" font-thin">repositories</p>
           </div>
           <div className="bg-[#0d1117] border border-gray-700 rounded p-2">
@@ -53,7 +53,7 @@ function BioGitHub({ onClose }) {
           onClick={onClose}
           className="bg-cyan-400 text-black font-semibold text-xl px-6 py-1 rounded hover:bg-cyan-500"
         >
-          <a href="https://github.com/qmthang22">visit</a>
+          <a href="https://github.com/thangthugian">visit</a>
         </button>
       </div>
     </div>

@@ -101,7 +101,7 @@ function Main() {
           <FaGithub
             onClick={handleVisitGitHub}
             onMouseOver={() => {
-              handleText("qmthang22");
+              handleText("thangthugian");
               handleImg("/image/avatar6.png");
             }}
             onMouseOut={() => {
