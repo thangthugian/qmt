@@ -15,7 +15,7 @@ function Interests() {
         {/* <span className="rounded-xl  p-1 m-2 bg-violet-500 text-white">
           Interests
         </span> */}
-        <li className="list-disc ml-8 mt-4">linux</li>
+        <li className="list-disc ml-8 mt-4">Linux</li>
         <li className="list-disc ml-8">Terminals and terminal tools</li>
         <li className="list-disc ml-8">Cyber security</li>
         <li className="list-disc ml-8">Backend development</li>
