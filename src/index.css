@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    body {
+      background-color: rgb(2 6 23);
+      color: rgb(203 213 225);
+    }
+  }
+}
+/* h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a {
+      color: inherit;
+    } */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+    color: #0ff;
+  }
+  50% {
+    text-shadow: 0 0 8px #f0f, 0 0 16px #f0f;
+    color: #f0f;
+  }
+  100% {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+    color: #0ff;
+  }
+}
+
+.glow-text {
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}

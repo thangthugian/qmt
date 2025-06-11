@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="/image/title.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thangthugian</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.addEventListener("keydown", function (event) {
+        if (
+          event.key === "F12" ||
+          (event.ctrlKey &&
+            event.shiftKey &&
+            ["i", "j"].includes(event.key.toLowerCase())) ||
+          (event.ctrlKey && event.key.toLowerCase() === "u")
+        ) {
+          event.preventDefault();
+          console.log("Hành động này đã bị chặn!");
+        }
+      });
+
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+        console.log("Chuột phải bị vô hiệu hóa!");
+      });
+    </script>
+  </body>
+</html>
